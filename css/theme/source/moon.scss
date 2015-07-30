@@ -42,16 +42,39 @@ $cyan:      #2aa198;
 $green:     #859900;
 
 // Override theme settings (see ../template/settings.scss)
-$mainColor: $base1;
-$headingColor: $base2;
+$mainColor: white;
+$headingColor: white;
 $headingTextShadow: none;
-$backgroundColor: $base03;
+$backgroundColor: #003A74;
 $linkColor: $blue;
 $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: $magenta;
-
+ 
 
 
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+// Bootstrap ------------------------------
+@import "../bootstrap/main";
+// ---------------------------------------------
+
+.logo{
+	height:120px;
+}
+
+.teamintro{
+	position:relative;
+	top: 5%;
+}
+.teampic{
+	height: 450px;
+}
+
+.pull-left{
+	text-align:left;
+}
+.teamName{
+	text-align:left;
+}
