@@ -980,7 +980,13 @@ body {
 .pull-left {
   text-align: left; }
 
+.pull-right {
+  text-align: right; }
+
 .teamName {
   text-align: left; }
+
+.sonarqubepic {
+  height: 500px; }
 
 /*# sourceMappingURL=moon.css.map */
